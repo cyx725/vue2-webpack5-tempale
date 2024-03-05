@@ -1,0 +1,62 @@
+/*reset*/
+html,
+body {
+  height: 100%;
+}
+body {
+  font: 14px/1.5 '\5FAE\8F6F\96C5\9ED1', 'Microsoft Yahei', 'Hiragino Sans GB',
+    'Heiti SC', tahoma, arial, sans-serif, '\5B8B\4F53';
+  color: #333333;
+  background-color: #f2f6fa;
+  overflow: hidden;
+}
+body,
+p,
+dl,
+dd,
+pre,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+div {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*form*/
+input,
+button,
+option,
+textarea,
+select,
+fieldset {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  vertical-align: middle;
+}
+input[type='text'],
+input[type='password'] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img,
+iframe {
+  border: none;
+}
+:focus {
+  outline: none;
+}
+i {
+  font-style: normal;
+}
